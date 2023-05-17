@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ..
 mkdir Alfresco
 cd Alfresco
 
@@ -125,7 +126,7 @@ services:
 
     proxy:
         image: alfresco/acs-community-ngnix:1.0.0
-        mem_limit: 256m
+        mem_limit: 128m
         depends_on:
             - alfresco
         ports:
