@@ -1,4 +1,4 @@
-package nz.ac.wgtn.veracity.drivers.alfresco.tests.home;
+package nz.ac.wgtn.veracity.drivers.alfresco.tests.settings;
 
 import java.util.concurrent.TimeUnit;
 
