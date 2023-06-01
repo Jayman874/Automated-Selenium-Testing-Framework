@@ -125,9 +125,6 @@ public class AdminToolsTests extends SeleniumSetup {
 	    driver.findElement(By.linkText("Admin Tools")).click();
 	    driver.findElement(By.linkText("Module Browser")).click();
 	    driver.findElement(By.linkText("Node Browser")).click();
-	    driver.findElement(By.id("page_x002e_ctool_x002e_admin-console_x0023_default-search-button-button")).click();
-	    driver.findElement(By.linkText("workspace://SpacesStore/3df858ad-cdf5-4ccb-8e84-26651ad5f88c")).click();
-	    driver.findElement(By.id("page_x002e_ctool_x002e_admin-console_x0023_default-goback-button-button")).click();
 	    driver.close();
 	}
 	
