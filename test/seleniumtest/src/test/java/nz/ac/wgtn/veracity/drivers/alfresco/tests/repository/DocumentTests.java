@@ -29,9 +29,6 @@ public class DocumentTests extends SeleniumSetup {
 	    driver.findElement(By.id("page_x002e_components_x002e_slingshot-login_x0023_default-password")).sendKeys("admin");
 	    driver.findElement(By.id("page_x002e_components_x002e_slingshot-login_x0023_default-submit-button")).click();
 	    driver.findElement(By.linkText("Repository")).click();
-	    //driver.findElement(By.cssSelector(".doclib-filter > .alfresco-twister")).click();
-	    //driver.findElement(By.cssSelector(".doclib-filter > .alfresco-twister")).click();
-	    
 	    driver.findElement(By.linkText("I\'m Editing")).click();
 	    {
 	      WebElement element = driver.findElement(By.id("template_x002e_documentlist_v2_x002e_repository_x0023_default-sortField-button-button"));
