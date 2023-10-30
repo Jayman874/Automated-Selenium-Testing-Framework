@@ -6,7 +6,6 @@
 	<artifactId>SeleniumTest</artifactId>
 	<version>1.0</version>
 	<name>Selenium Test</name>
-	<packaging>jar</packaging>
 	<properties>
 		<property.name>testMode</property.name>
 	</properties>
